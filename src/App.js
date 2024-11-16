@@ -3,7 +3,7 @@ import './App.css';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Navigation from './components/Navigation';
 import Home from './components/Home';
-import MyPlants from './components/MyPlants';
+import Plants from './components/Plants';
 import AddPlant from './components/AddPlant';
 import CareSchedule from './components/CareSchedule';
 function App() {
@@ -13,7 +13,7 @@ function App() {
       <div className='main-content'>  
         <Routes>
           <Route path='/home' element={<Home/>}></Route>
-          <Route path='/myplants' element={<MyPlants/>}></Route>
+          <Route path='/myplants' element={<Plants/>}></Route>
           <Route path='/addplant' element={<AddPlant/>}></Route>
           <Route path='/careschedule' element={<CareSchedule/>}></Route>
           <Route path="/" exact element={<Home/>} />

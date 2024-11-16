@@ -1,9 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Baumans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baumans&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 body {
     margin: auto;
     background-color: #5EBC67;
+    color: #fff;
 }
+
+/* navbar */
 
 .navbar {
     margin-top: 20px;
@@ -39,3 +42,43 @@ body {
     color: #fff;
     font-size: 18px;
 }
+
+/* main content */
+
+.main-content {
+    margin: 50px 200px 50px;
+}
+
+.main-content h1 {
+    font-family: 'Montserrat';
+    font-weight: 600;
+}
+
+/* plant section */
+
+.card, .card-img-top, .card-body {
+    border: none !important;
+    outline: none !important;
+}
+
+.card-body {
+    padding: 0;
+}
+
+
+.card {
+    width: 300px;
+    text-align: center;
+    border: none;
+}
+
+.card-img-top {
+    height: 200px;
+    border: none;
+}
+
+.card-body {
+    padding: 0;
+    border: none;
+}
+
